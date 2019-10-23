@@ -1,0 +1,38 @@
+{
+  "name": "bitacora",
+  "plural": "bitacoras",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "velocidad": {
+      "type": "number",
+      "required": true
+    },
+    "distancia": {
+      "type": "number",
+      "required": true
+    },
+    "tiempoTotal": {
+      "type": "number",
+      "required": true
+    },
+    "objetos": {
+      "type": "number",
+      "required": true
+    },
+    "tiempoDecision": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

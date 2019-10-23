@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDs": {
+    "host": "cluster0-pqwqm.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://cesar:201503440@cluster0-pqwqm.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "bitacora",
+    "password": "201503440",
+    "name": "mongoDs",
+    "user": "cesar",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
